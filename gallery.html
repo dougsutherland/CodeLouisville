@@ -1,34 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-<style>
-    .article {
-        float:right;
-    }
-</style>
+    <title>Dogs of Marne Ct - Gallery</title>
+    <link rel="stylesheet" href="css/site.css">
+    <!--
+        Order of the Media Query Matters, must be lowest to highest, mobile 
+        first layout is in site.css above
+    -->
+    <link rel="stylesheet" href="css/view600.css">
+    <link rel="stylesheet" href="css/view768.css">
+    <link rel="stylesheet" href="css/view992.css">
+    <link rel="stylesheet" href="css/view1200.css">
 </head>
+
 <body>
-    <header>
-        header
+    <header class="header">
+        <h1 class="headertext">Dogs of Marne Court</h1>
     </header>
-    <nav>
-        navigation
-    </nav>
-    <section>
-        section
+
+    <section class="wrapper">
+        <div class="inner-wrapper">
+
+            <div class="row">
+                <div class="col col1">
+
+                    <img srcset="images/blue_100.jpg 100w,
+                            images/blue_200.jpg 200w,
+                            images/blue_300.jpg 300w,
+                            images/blue_550.jpg 550w" sizes="(max-width: 600px) 100px,
+                            (min-width: 600px) 200px,       
+                            (min-width: 768px) 200px,
+                            (min-width: 992px) 200px,
+                            (min-width: 1200px) 300px" src="images/daisy.jpg"
+                        alt="My Boy Blue Image of Eating at table" class="image1">
+
+                </div>
+                <div class="col col2">
+                    <img srcset="images/blue2_100.jpg 100w,
+                     images/blue2_200.jpg 200w,
+                     images/blue2_300.jpg 300w,
+                     images/blue2_550.jpg 550w" sizes="(min-width: 1200px) 550px,
+                    (min-width: 992px) 300px,       
+                    (min-width: 768px) 300px,
+                    (min-width: 600px) 200px,
+                    (max-width: 600px) 100px" src="images/daisy.jpg" alt="My Boy Blue too" class="image1">
+
+                </div>
+                <div class="col col3">
+                    <img srcset="images/tucker4_100.jpg 100w,
+                        images/tucker4_200.jpg 200w,
+                        images/tucker4_300.jpg 300w,
+                        images/tucker4_600.jpg 600w" sizes="(max-width: 600px) 100px,
+                        (min-width: 600px) 200px,
+                        (min-width: 768px) 300px,
+                        (min-width: 992px) 300px,
+                        (min-width: 1200px) 600px" src="images/daisy.jpg" alt="My Boy T" class="image1">
+                </div>
+                <div class="col col4">
+                    <img srcset="images/tucker8_100.jpg 100w,
+                     images/tucker8_200.jpg 200w,
+                     images/tucker8_300.jpg 300w,
+                     images/tucker8_600.jpg 600w," sizes="(max-width: 600px) 100px,
+                (min-width: 600px) 200px,
+                (min-width: 768px) 300px,
+                (min-width: 992px) 300px,
+                (min-width: 1200px) 600px" src="images/daisy.jpg" alt="My Boy T and my Girl G" class="image1">
+                </div>
+            </div>
+           
+        </div>
     </section>
-    <article class="article">
-        article
-    </article>
-    <aside>
-        aside
-    </aside>
-    <footer>
-        footer
+    <footer class="footer">
+        <h3>Powered by my "good boi" Tucker </h3>
     </footer>
 </body>
+
 </html>

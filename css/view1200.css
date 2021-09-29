@@ -1,0 +1,23 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    .col1 {
+        width: 23%;
+        float: left;
+    }
+
+    .col2 {
+        width: 23%;
+        float: left;
+    }
+
+    .col3 {
+        width: 23%;
+        float: left;
+    }
+
+    .col4 {
+        width: 23%;
+        float: left;
+    }
+}

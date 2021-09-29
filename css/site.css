@@ -1,17 +1,75 @@
-.column {
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    min-height: 100%;
+    padding: 0;
+    margin-top: 50px;
+}
+
+.inner-wrapper {
+    margin:0;
+    padding:10px;
+}
+
+.col {
+    padding: 1%;
+    background-color: white;
+}
+
+.image1 {
+    width: 100%;
+}
+
+.header {
+    background-color: #800080;
+    color: white;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+.headertext{
+  margin:0;
+}
+
+.footer {
+    background-color: purple;
+    color: white;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom:0;
+    left:0;
+    }
+
+/* 
+Extra small devices (phones, 600px and down) 
+This is my "mobile first" layout being defined
+you DO NOT want this style encapsulated in a media query to make this "mobile first"
+*/
+.col1 {
+    width: 98%;
     float: left;
-    width: 50%;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  #rachel{
-    background-color: cyan;
-  }
-  body{
-    background-color: coral;
-  }
+    padding:1%
+}
+.col2 {
+    width: 98%;
+    float: left;
+    padding:1%
+}
+.col3 {
+    width: 98%;
+    float: left;
+    padding:1%
+}
+.col4 {
+    width: 98%;
+    float: left;
+    padding:1%
+}
