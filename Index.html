@@ -4,10 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My cool HTML page</title>
-
+    <title>Dogs of Marne Ct - Gallery</title>
+    <link rel="stylesheet" href="css/site.css">
+    <!--
+            Order of the Media Query Matters, must be lowest to highest, mobile 
+            first layout is in site.css above
+    -->
+    <link rel="stylesheet" href="css/view600.css">
+    <link rel="stylesheet" href="css/view768.css">
+    <link rel="stylesheet" href="css/view992.css">
+    <link rel="stylesheet" href="css/view1200.css">
 </head>
+
 <body>
-    <p>I love HTML</p>
+    <header class="header">
+        <h1 class="headertext">Dogs of Marne Court</h1>
+    </header>
+    <section class="wrapper">
+        <div class="inner-wrapper">
+            <ul>
+                <li><a href="gallery.html">Main Gallery</a></li>
+            </ul>
+        </div>
+    </section>
+    <footer class="footer">
+        <h3>Powered by my "good boi" Tucker </h3>
+    </footer>
 </body>
+
 </html>
