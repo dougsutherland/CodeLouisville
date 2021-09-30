@@ -2,22 +2,25 @@
 @media only screen and (min-width: 768px) {
 
     .col1 {
-        width: 23%;
+        width: 48%;
         float: left;
+
     }
 
     .col2 {
-        width: 23%;
+        width: 48%;
         float: left;
-    }
+     }
 
     .col3 {
-        width: 23%;
+        width: 48%;
         float: left;
+
     }
 
     .col4 {
-        width: 23%;
+        width: 48%;
         float: left;
+
     }
 }

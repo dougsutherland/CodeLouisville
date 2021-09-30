@@ -14,15 +14,18 @@
     margin:0;
     padding:10px;
 }
-
+.row{
+    float:left;
+    width:100%;
+    clear:both;
+}
 .col {
     padding: 1%;
-    background-color: white;
+    background-color: green;
+    border: 10px solid #969696;
 }
 
-.image1 {
-    width: 100%;
-}
+
 
 .header {
     background-color: #800080;
@@ -49,27 +52,41 @@
     }
 
 /* 
-Extra small devices (phones, 600px and down) 
+Small devices (phones, 767px and down) 
 This is my "mobile first" layout being defined
 you DO NOT want this style encapsulated in a media query to make this "mobile first"
 */
+.image1 {
+
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
 .col1 {
     width: 98%;
     float: left;
-    padding:1%
+    padding:1%;
+    overflow: hidden;
+
 }
 .col2 {
     width: 98%;
     float: left;
-    padding:1%
+    padding:1%;
+    overflow: hidden;
+
 }
 .col3 {
     width: 98%;
     float: left;
-    padding:1%
+    padding:1%;
+    overflow: hidden;
+
 }
 .col4 {
     width: 98%;
     float: left;
-    padding:1%
+    padding:1%;
+    overflow: hidden;
+
 }
