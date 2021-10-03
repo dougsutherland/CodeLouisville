@@ -57,7 +57,7 @@ This is my "mobile first" layout being defined
 you DO NOT want this style encapsulated in a media query to make this "mobile first"
 */
 .image1 {
-
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     display: block;
