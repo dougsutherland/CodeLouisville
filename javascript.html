@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+Div 1
+<input type="button" value="MyFirstButton" onclick="MyAlert('first');">
+<input type="button" value="MySecondButton" onclick="MyAlert('second');">
+<span id="myFirstSpan">Text of myFirstSpan</span>
+    </div>
+    <script>
+
+        function MyAlert(order)
+        {
+            let myFirstVariable = order;
+            
+            let myFirstArray = ["myFirstEntry","mySecondEntry","mySecondEntry"];
+
+            let var1 = 1;
+            let var2 = "1";
+
+            if (var1 === var2){
+                alert ('Yes')
+            }else{
+                alert ('No');
+            }
+
+            document.getElementById("myFirstSpan").textContent=myFirstVariable;
+           
+        }
+        
+
+    </script>
+<div>
+    Div 2
+</div>
+
+</body>
+</html>
